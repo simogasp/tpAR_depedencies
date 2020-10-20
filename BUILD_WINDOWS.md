@@ -63,7 +63,7 @@ To install it:
 
 * download the library from the repository https://github.com/simogasp/glm/archive/win.zip
 
-* unzip the file into %tpARBasePath% so that a `glm` directory appears.
+* unzip the file into `%tpARBasePath%` so that a `glm` directory appears.
 
 * go to `%tpARBasePath%\glm` and create a `build` directory (`mkdir build`)
 
