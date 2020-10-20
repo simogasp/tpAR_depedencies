@@ -67,7 +67,7 @@ To install it:
 
 * go to `%tpARBasePath%\glm` and create a `build` directory (`mkdir build`)
 
-* from the terminal/prompt execute the following:
+* from the terminal/prompt, go to `%tpARBasePath%\glm\build` and execute the following:
 
     ```
     cmake .. -G "Visual Studio 16 2019" -A x64 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX:PATH=%tpARBasePath%\glm\build\install -DGLUT_ROOT_PATH:PATH=%tpARBasePath%\freeglut -DBUILD_EXAMPLES:BOOL=OFF  -Wno-dev
@@ -93,7 +93,9 @@ To install it:
 
 * unzip the file into %tpARBasePath% (a folder named `opencv-2.4.13.4` should appear).
 
-* from `%tpARBasePath\opencv` create a `build` directory (`mkdir build`)
+* from `%tpARBasePath\opencv-2.4.13.4` create a `build` directory (`mkdir build`)
+
+* from the terminal/prompt, go to `%tpARBasePath%\opencv-2.4.13.4\build` and execute the following:
 
     ```
     cmake .. -G "Visual Studio 16 2019" -A x64 -DCMAKE_BUILD_TYPE=Release -DWITH_CUDA:BOOL=OFF -DBUILD_PERF_TESTS:BOOL=OFF -DBUILD_TESTS:BOOL=OFF
