@@ -5,6 +5,6 @@ You can find the instructions for:
 
 * [Windows](BUILD_WINDOWS.md)
 
-* Linux (in progress)
+* [Linux](BUILD_LINUX.md)
 
 * Mac OSX (in progress)
