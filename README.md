@@ -7,4 +7,4 @@ You can find the instructions for:
 
 * [Linux](BUILD_LINUX.md)
 
-* Mac OSX (in progress)
+* [OSX](BUILD_OSX.md)
