@@ -65,7 +65,7 @@ To install it:
 * then build and install the library by running
 
     ```
-    cmake install -j$(nproc) 
+    make install -j$(nproc) 
     ```
   and go grab a cup of coffee or a beverage of your choice ;-)
 
