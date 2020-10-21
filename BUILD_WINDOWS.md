@@ -6,7 +6,8 @@ These are the steps to build all you need for the TP.
 
 ## Prerequisites
 
-The building process requires CMake and MS Visual Studio. You may already have it installed on your machine since the opengl tp of last semester.
+The building process requires CMake and MS Visual Studio. 
+You may already have it installed on your machine since the opengl tp of last semester.
 
 If it is not the case:
 
