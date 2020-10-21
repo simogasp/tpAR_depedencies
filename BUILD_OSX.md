@@ -61,7 +61,7 @@ To install it:
 * in order to run the tp code later on you have to add the built libraries to the `DYLD_LIBRARY_PATH` environment variable.
 
     ```
-    export $DYLD_LIBRARY_PATH=${tpARBasePath}/opencv-2.4.13.4/build/install/lib:$DYLD_LIBRARY_PATH
+    export DYLD_LIBRARY_PATH=${tpARBasePath}/opencv-2.4.13.4/build/install/lib:$DYLD_LIBRARY_PATH
     ```
 
   Again, you can add this to your `~/.profile` file so that you have it available for all shell sessions.
