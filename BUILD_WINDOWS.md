@@ -34,7 +34,7 @@ If it is not the case:
 
 * to make your life easier, set up an environment variable that refer to this location
 
-  * from the prompt / powershell execute `c:\Windows\System32\SystemPropertiesAdvanced.exe `
+  * from the prompt (`cmd.exe`) execute `c:\Windows\System32\SystemPropertiesAdvanced.exe `
 
   * click `Environment Variables...`  (`Variables d'environnement...`)
 
@@ -52,7 +52,7 @@ If it is not the case:
 The library is necessary for the opengl rendering of the virtual object. 
 To install it:
 
-* download the libraries from here https://www.transmissionzero.co.uk/files/software/development/GLUT/freeglut-MSVC.zip
+* download the libraries from here https://github.com/simogasp/tpAR_depedencies/raw/main/freeglut-MSVC-3.0.0-2.mp.zip
 
 * unzip the file into `%tpARBasePath%` so that a `freeglut` directory appears, inside you find the usual structure of directories `bin`, `include` and `lib` etc.
 
