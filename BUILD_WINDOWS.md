@@ -93,7 +93,7 @@ To install it:
 
 * unzip the file into %tpARBasePath% (a folder named `opencv-2.4.13.4` should appear).
 
-* from `%tpARBasePath\opencv-2.4.13.4` create a `build` directory (`mkdir build`)
+* from `%tpARBasePath%\opencv-2.4.13.4` create a `build` directory (`mkdir build`)
 
 * from the terminal/prompt, go to `%tpARBasePath%\opencv-2.4.13.4\build` and execute the following:
 
@@ -108,6 +108,8 @@ To install it:
     ```
     cmake --build . --config Release 
     ```
+
+  and go grab a cup of coffee or a beverage of your choice ;-)
 
 
 ## Setting up the runtime environment variables
