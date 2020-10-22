@@ -64,14 +64,14 @@ To install it:
 
 * download the library from the repository https://github.com/simogasp/glm/archive/win.zip
 
-* unzip the file into `%tpARBasePath%` so that a `glm` directory appears.
+* unzip the file into `%tpARBasePath%` so that a `glm-win` directory appears.
 
-* go to `%tpARBasePath%\glm` and create a `build` directory (`mkdir build`)
+* go to `%tpARBasePath%\glm-win` and create a `build` directory (`mkdir build`)
 
-* from the terminal/prompt, go to `%tpARBasePath%\glm\build` and execute the following:
+* from the terminal/prompt, go to `%tpARBasePath%\glm-win\build` and execute the following:
 
     ```
-    cmake .. -G "Visual Studio 16 2019" -A x64 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX:PATH=%tpARBasePath%\glm\build\install -DGLUT_ROOT_PATH:PATH=%tpARBasePath%\freeglut -DBUILD_EXAMPLES:BOOL=OFF  -Wno-dev
+    cmake .. -G "Visual Studio 16 2019" -A x64 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX:PATH=%tpARBasePath%\glm-win\build\install -DGLUT_ROOT_PATH:PATH=%tpARBasePath%\freeglut -DBUILD_EXAMPLES:BOOL=OFF  -Wno-dev
     ```
 
 > if you had a different version of VS installed (not the latest) you may need to adapt the string `Visual Studio 16 2019` to your version: e.g. `Visual Studio 15 2017`, `Visual Studio 14 2015`, `Visual Studio 12 2013` etc
@@ -82,7 +82,7 @@ To install it:
     cmake --build . --config Release --target install
     ```
 
-  this should compile the sources and install the library in %tpARBasePath%\glm\build\install.
+  this should compile the sources and install the library in %tpARBasePath%\glm-win\build\install.
 
 
 ## opencv
