@@ -57,9 +57,9 @@ To install it:
 * unzip the file into `%tpARBasePath%` so that a `freeglut` directory appears, inside you find the usual structure of directories `bin`, `include` and `lib` etc.
 
 
-## gml
+## glm
 
-GML is a C library that reads 3D models from .obj files and render them using opengl directives.
+GLM is a C library that reads 3D models from .obj files and render them using opengl directives.
 To install it:
 
 * download the library from the repository https://github.com/simogasp/glm/archive/win.zip
