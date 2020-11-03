@@ -82,7 +82,7 @@ To install it:
     cmake --build . --config Release --target install
     ```
 
-  this should compile the sources and install the library in %tpARBasePath%\glm-win\build\install.
+  this should compile the sources and install the library in `%tpARBasePath%\glm-win\build\install`.
 
 
 ## opencv
