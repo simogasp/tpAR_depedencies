@@ -8,7 +8,7 @@ These are the steps to build all you need for the TP.
 In order to develop in C++ some system packages are required (you may already have it installed on your machine since the opengl tp of last semester):
 
 ```
-sudo apt-get install libglu1-mesa-dev freeglut3-dev build-essential mesa-common-dev libxi-dev libxmu-dev automake
+sudo apt-get install libglu1-mesa-dev freeglut3-dev build-essential mesa-common-dev libxi-dev libxmu-dev automake libgtk+2-dev pkg-config
 ```
 
 To build this code we use the CMake build system. 
