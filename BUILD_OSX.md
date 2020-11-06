@@ -53,9 +53,10 @@ To install it:
 * then build and install the library by running
 
     ```
-    make install -j$(nproc) 
+    make install -j4 
     ```
-  and go grab a cup of coffee or a beverage of your choice ;-)
+  You can replace 4 with the number of threads that you machine can support, it will speed up the building.
+  Then go grab a cup of coffee or a beverage of your choice ;-)
 
 
 * in order to run the tp code later on you have to add the built libraries to the `DYLD_LIBRARY_PATH` environment variable.
