@@ -73,6 +73,10 @@ To install it:
     ```
     cmake .. -G "Visual Studio 16 2019" -A x64 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX:PATH=%tpARBasePath%\glm-win\build\install -DGLUT_ROOT_PATH:PATH=%tpARBasePath%\freeglut -DBUILD_EXAMPLES:BOOL=OFF  -Wno-dev
     ```
+    or, if you are using PowerShell, rememeber that the enviromental variables are written as e.g. `$env:tpARBasePath`, so:
+    ```
+    cmake .. -G "Visual Studio 16 2019" -A x64 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX:PATH=$env:tpARBasePath\glm-win\build\install -DGLUT_ROOT_PATH:PATH=$env:tpARBasePath\freeglut -DBUILD_EXAMPLES:BOOL=OFF  -Wno-dev
+    ```
 
 > if you had a different version of VS installed (not the latest) you may need to adapt the string `Visual Studio 16 2019` to your version: e.g. `Visual Studio 15 2017`, `Visual Studio 14 2015`, `Visual Studio 12 2013` etc
     
