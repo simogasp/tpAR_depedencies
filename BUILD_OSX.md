@@ -15,9 +15,7 @@ If not, you need to install XCode  from the `Mac App Store`, see here for more d
 
 * everything will be smoother if you have homebrew installed (https://brew.sh/): it is a package manager similar in spirit to the one you find in Linux.
 
-    * `brew install automake cmake` will install everything you need for building the code.
-
-    * if you don't have homebrew you can install CMake by downloading https://github.com/Kitware/CMake/releases/download/v3.17.1/cmake-3.17.1-Darwin-x86_64.dmg
+    * `brew install automake cmake ffmpeg` will install everything you need for building the code.
 
 ## Setting up your working environment
 
