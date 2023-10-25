@@ -33,6 +33,23 @@ If it is not the case:
   > [!WARNING]  
   > Place the folder in a path that does not contain **spaces**, **weird characters** or **accents**.
 
+  > [!NOTE]  
+  > At the end of this tutorial you should have a folder structure like this:
+  > ```
+  > tpAR
+  > ├── freeglut
+  > ├── glm-win
+  > ├── opencv-2.4.13.4
+  > ├── tpAR-v202X.Y.Z
+  > |  ├── .cmake
+  > |  ├── data
+  > |  ├── doc
+  > |  ├── src
+  > |  ├── CMakeLists.txt
+  > |  ├── README.md
+  > |  └── ...
+  > ```
+
 * to make your life easier, set up an environment variable that refer to this location
 
   * from the prompt (`cmd.exe`) execute `c:\Windows\System32\SystemPropertiesAdvanced.exe `
