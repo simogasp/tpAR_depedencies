@@ -79,6 +79,7 @@ To install it:
     cmake .. -G "Visual Studio 16 2019" -A x64 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX:PATH=$env:tpARBasePath\glm-win\build\install -DGLUT_ROOT_PATH:PATH=$env:tpARBasePath\freeglut -DBUILD_EXAMPLES:BOOL=OFF  -Wno-dev
     ```
 
+> [!NOTE] 
 > if you had a different version of VS installed (not the latest) you may need to adapt the string `Visual Studio 16 2019` to your version: e.g. `Visual Studio 15 2017`, `Visual Studio 14 2015`, `Visual Studio 12 2013` etc
     
 * then execute
@@ -107,6 +108,7 @@ To install it:
     cmake .. -G "Visual Studio 16 2019" -A x64 -DCMAKE_BUILD_TYPE=Release -DWITH_CUDA:BOOL=OFF -DBUILD_PERF_TESTS:BOOL=OFF -DBUILD_TESTS:BOOL=OFF -DWITH_OPENEXR:BOOL=OFF -DWITH_OPENCL:BOOL=OFF -DBUILD_opencv_ts:BOOL=OFF
     ```
 
+> [!NOTE] 
 > if you had a different version of VS installed (not the latest) you may need to adapt the string `Visual Studio 16 2019` to your version: e.g. `Visual Studio 15 2017`, `Visual Studio 14 2015`, `Visual Studio 12 2013` etc
     
 * then execute
