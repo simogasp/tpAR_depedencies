@@ -31,7 +31,7 @@ If it is not the case:
 
 * create a folder `tpAR` where you will have all the dependencies and the sources of the tp.
   > [!WARNING]  
-  > DO NOT USE paths containing **spaces**, **weird characters** or **accents**.
+  > Place the folder in a path that does not contain **spaces**, **weird characters** or **accents**.
 
 * to make your life easier, set up an environment variable that refer to this location
 
