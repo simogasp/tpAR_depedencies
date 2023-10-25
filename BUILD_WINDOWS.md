@@ -13,7 +13,7 @@ If it is not the case:
 
 * download and install the latest version of CMake
 
-   * download here: https://github.com/Kitware/CMake/releases/download/v3.17.1/cmake-3.17.1-win64-x64.msi
+   * download here (choose "Windows x64 Installer:"): https://cmake.org/download/
    
    * !!! When installing make sure that the checkbox "ne pas ajouter cmake au PATH" is **NOT** checked
  

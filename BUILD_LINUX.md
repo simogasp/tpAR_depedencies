@@ -20,14 +20,13 @@ Check the version that is provided by your linux distribution and if it is suita
     sudo apt-get install cmake
     ```
 
-otherwise you can install the binaries from here: https://github.com/Kitware/CMake/releases/download/v3.17.1/cmake-3.17.1-Linux-x86_64.sh
+otherwise you can install the binaries from here (choose Linux x86_64):: https://cmake.org/download/
     
-    To install:
+    Once downloaded the latest version X.YY.Z, in order to install:
 
     ```
-    wget https://github.com/Kitware/CMake/releases/download/v3.17.1/cmake-3.17.1-Linux-x86_64.sh
-    chmod +x cmake-3.17.1-Linux-x86_64.sh
-    sudo cmake-3.17.1-Linux-x86_64.sh --prefix=/usr/local/ --skip-license
+    chmod +x cmake-X.YY.Z-Linux-x86_64.sh
+    sudo ./cmake-X.YY.Z-Linux-x86_64.sh --prefix=/usr/local/ --skip-license
     ```
   
 
