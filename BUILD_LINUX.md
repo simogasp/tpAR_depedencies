@@ -11,23 +11,25 @@ In order to develop in C++ some system packages are required (you may already ha
 sudo apt-get install libglu1-mesa-dev freeglut3-dev build-essential mesa-common-dev libxi-dev libxmu-dev automake libgtk+2.0-dev pkg-config libgstreamer1.0-dev  libgstreamer-plugins-base1.0-dev  libgstreamer-plugins-good1.0-dev  libv4l-dev  gstreamer1.0-plugins-bad ubuntu-restricted-extras
 ```
 
+### CMake
+
 To build this code we use the CMake build system. 
 You can install CMake from the system package manager but you need a recent version >= 3.10. 
 Check the version that is provided by your linux distribution and if it is suitable usually you just need to
 
 
-    ```
-    sudo apt-get install cmake
-    ```
+```shell
+sudo apt-get install cmake
+```
 
 otherwise you can install the binaries from here (choose Linux x86_64):: https://cmake.org/download/
     
-    Once downloaded the latest version X.YY.Z, in order to install:
+Once downloaded the latest version X.YY.Z, in order to install:
 
-    ```
-    chmod +x cmake-X.YY.Z-Linux-x86_64.sh
-    sudo ./cmake-X.YY.Z-Linux-x86_64.sh --prefix=/usr/local/ --skip-license
-    ```
+```shell
+chmod +x cmake-X.YY.Z-Linux-x86_64.sh
+sudo ./cmake-X.YY.Z-Linux-x86_64.sh --prefix=/usr/local/ --skip-license
+```
   
 
 ## Setting up your working environment
@@ -44,7 +46,7 @@ otherwise you can install the binaries from here (choose Linux x86_64):: https:/
   * you can verify that the variable is set with `echo ${tpARBasePath}`
 
 
-## opencv
+## OpenCV
 
 OpenCV is a computer vision library that contains some of the algorithms we are using for image processing and pose estimation.
 To install it:

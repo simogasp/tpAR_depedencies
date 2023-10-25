@@ -7,7 +7,7 @@ These are the steps to build all you need for the TP.
 
 In order to develop in C++ and OpenGL check if 
 
-```
+```shell
 ls  /System/Library/Frameworks/
 ```
 contains OpenGL and GLUT frameworks.
@@ -15,7 +15,10 @@ If not, you need to install XCode  from the `Mac App Store`, see here for more d
 
 * everything will be smoother if you have homebrew installed (https://brew.sh/): it is a package manager similar in spirit to the one you find in Linux.
 
-    * `brew install automake cmake ffmpeg` will install everything you need for building the code.
+    * This will install everything you need for building the code:
+      ```shell
+      brew install automake cmake ffmpeg
+      ``` 
 
 ## Setting up your working environment
 
@@ -31,7 +34,7 @@ If not, you need to install XCode  from the `Mac App Store`, see here for more d
   * you can verify that the variable is set with `echo ${tpARBasePath}`
 
 
-## opencv
+## OpenCV
 
 OpenCV is a computer vision library that contains some of the algorithms we are using for image processing and pose estimation.
 To install it:

@@ -91,7 +91,7 @@ To install it:
   this should compile the sources and install the library in `%tpARBasePath%\glm-win\build\install`.
 
 
-## opencv
+## OpenCV
 
 OpenCV is a computer vision library that contains some of the algorithms we are using for image processing and pose estimation.
 To install it:
