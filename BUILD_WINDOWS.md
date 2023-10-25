@@ -15,14 +15,14 @@ If it is not the case:
 
    * download here (choose "Windows x64 Installer:"): https://cmake.org/download/
 
-   * !!! When installing make sure that the checkbox "ne pas ajouter cmake au PATH" is **NOT** checked
+   * :warning: When installing make sure that the checkbox "ne pas ajouter cmake au PATH" is **NOT** checked
  
 
 * if you don't have it already, download and install MS Visual Studio Community Edition (free for students): https://visualstudio.microsoft.com/downloads/
 
     * install instructions here: https://docs.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=vs-2019
     
-    * !!! install the "Desktop development with C++"
+    * :warning: install the "Desktop development with C++"
     
     * If you have VS already installed, you can go in **Tools** --> **Get Tools and Features...** to install "Desktop development with C++" if it is missing.
 
