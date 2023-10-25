@@ -14,7 +14,7 @@ If it is not the case:
 * download and install the latest version of CMake
 
    * download here (choose "Windows x64 Installer:"): https://cmake.org/download/
-   
+
    * !!! When installing make sure that the checkbox "ne pas ajouter cmake au PATH" is **NOT** checked
  
 
@@ -30,7 +30,8 @@ If it is not the case:
 ## Setting up your working environment
 
 * create a folder `tpAR` where you will have all the dependencies and the sources of the tp.
-  Please avoid paths containing spaces, weird characters or accents.
+  > [!WARNING]  
+  > DO NOT USE paths containing **spaces**, **weird characters** or **accents**.
 
 * to make your life easier, set up an environment variable that refer to this location
 
