@@ -37,7 +37,7 @@ If it is not the case:
 > tpAR
 > ├── freeglut
 > ├── glm-win
-> ├── opencv-2.4.13.4
+> ├── opencv-4.6.0
 > ├── tpAR-v202X.Y.Z
 > |  ├── .cmake
 > |  ├── data
@@ -110,13 +110,13 @@ To install it:
 OpenCV is a computer vision library that contains some of the algorithms we are using for image processing and pose estimation.
 To install it:
 
-* download the library from the repository <https://github.com/opencv/opencv/archive/2.4.13.4.zip>
+* download the library from the repository <https://github.com/opencv/opencv/archive/4.6.0.zip>
 
-* unzip the file into %tpARBasePath% (a folder named `opencv-2.4.13.4` should appear).
+* unzip the file into %tpARBasePath% (a folder named `opencv-4.6.0` should appear).
 
-* from `%tpARBasePath%\opencv-2.4.13.4` create a `build` directory (`mkdir build`)
+* from `%tpARBasePath%\opencv-4.6.0` create a `build` directory (`mkdir build`)
 
-* from the terminal/prompt, go to `%tpARBasePath%\opencv-2.4.13.4\build` and execute the following:
+* from the terminal/prompt, go to `%tpARBasePath%\opencv-4.6.0\build` and execute the following:
 
     ```powershell
     cmake .. -G "Visual Studio 16 2019" -A x64 -DCMAKE_BUILD_TYPE=Release -DWITH_CUDA:BOOL=OFF -DBUILD_PERF_TESTS:BOOL=OFF -DBUILD_TESTS:BOOL=OFF -DWITH_OPENEXR:BOOL=OFF -DWITH_OPENCL:BOOL=OFF -DBUILD_opencv_ts:BOOL=OFF
@@ -145,6 +145,6 @@ The last step before start working on the TP is to set up the environment variab
 
   * add at the bottom of the list the following paths:
 
-    * `%tpARBasePath%\opencv-2.4.13.4\build\bin\Release`
+    * `%tpARBasePath%\opencv-4.6.0\build\bin\Release`
 
     * `%tpARBasePath%\freeglut\bin\x64\`

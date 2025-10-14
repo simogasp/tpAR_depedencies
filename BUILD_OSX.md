@@ -39,13 +39,13 @@ If not, you need to install XCode  from the `Mac App Store`, see here for more d
 OpenCV is a computer vision library that contains some of the algorithms we are using for image processing and pose estimation.
 To install it:
 
-* download the library from the repository <https://github.com/opencv/opencv/archive/2.4.13.4.zip>
+* download the library from the repository <https://github.com/opencv/opencv/archive/4.6.0.zip>
 
-* unzip the file into `${tpARBasePath}` (a folder named `opencv-2.4.13.4` should appear).
+* unzip the file into `${tpARBasePath}` (a folder named `opencv-4.6.0` should appear).
 
-* from `${tpARBasePath}\opencv-2.4.13.4` create a `build` directory (`mkdir build`)
+* from `${tpARBasePath}\opencv-4.6.0` create a `build` directory (`mkdir build`)
 
-* from the shell, go to `${tpARBasePath}/opencv-2.4.13.4/build` and execute the following:
+* from the shell, go to `${tpARBasePath}/opencv-4.6.0/build` and execute the following:
 
     ```bash
     cmake .. -DCMAKE_INSTALL_PREFIX:PATH=`pwd`/install -DCMAKE_BUILD_TYPE=Release -DWITH_CUDA:BOOL=OFF -DBUILD_PERF_TESTS:BOOL=OFF -DBUILD_TESTS:BOOL=OFF
@@ -63,7 +63,7 @@ To install it:
 * in order to run the tp code later on you have to add the built libraries to the `DYLD_LIBRARY_PATH` environment variable.
 
     ```bash
-    export DYLD_LIBRARY_PATH=${tpARBasePath}/opencv-2.4.13.4/build/install/lib:$DYLD_LIBRARY_PATH
+    export DYLD_LIBRARY_PATH=${tpARBasePath}/opencv-4.6.0/build/install/lib:$DYLD_LIBRARY_PATH
     ```
 
   Again, you can add this to your `~/.profile` file so that you have it available for all shell sessions.
